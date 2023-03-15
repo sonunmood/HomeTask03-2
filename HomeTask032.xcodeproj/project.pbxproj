@@ -13,10 +13,14 @@
 		3D99FDBA29B8804D00560342 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D99FDB829B8804D00560342 /* Main.storyboard */; };
 		3D99FDBC29B8805100560342 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D99FDBB29B8805100560342 /* Assets.xcassets */; };
 		3D99FDBF29B8805100560342 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D99FDBD29B8805100560342 /* LaunchScreen.storyboard */; };
+		3D99FDC929BCEB2100560342 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D99FDC829BCEB2100560342 /* SignUpViewController.swift */; };
+		3D99FDCB29BE3AF100560342 /* PasswordResetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D99FDCA29BE3AF100560342 /* PasswordResetViewController.swift */; };
+		3D99FDCD29BF5FA300560342 /* PasswordChangeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D99FDCC29BF5FA300560342 /* PasswordChangeViewController.swift */; };
+		3D99FDCF29BF670E00560342 /* SuccessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D99FDCE29BF670E00560342 /* SuccessViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		3D99FDAF29B8804D00560342 /* lesson033.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = lesson033.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D99FDAF29B8804D00560342 /* HomeTask032.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HomeTask032.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D99FDB229B8804D00560342 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3D99FDB429B8804D00560342 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		3D99FDB629B8804D00560342 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +28,10 @@
 		3D99FDBB29B8805100560342 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3D99FDBE29B8805100560342 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3D99FDC029B8805100560342 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D99FDC829BCEB2100560342 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		3D99FDCA29BE3AF100560342 /* PasswordResetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordResetViewController.swift; sourceTree = "<group>"; };
+		3D99FDCC29BF5FA300560342 /* PasswordChangeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordChangeViewController.swift; sourceTree = "<group>"; };
+		3D99FDCE29BF670E00560342 /* SuccessViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuccessViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,7 +56,7 @@
 		3D99FDB029B8804D00560342 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3D99FDAF29B8804D00560342 /* lesson033.app */,
+				3D99FDAF29B8804D00560342 /* HomeTask032.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -59,6 +67,10 @@
 				3D99FDB229B8804D00560342 /* AppDelegate.swift */,
 				3D99FDB429B8804D00560342 /* SceneDelegate.swift */,
 				3D99FDB629B8804D00560342 /* ViewController.swift */,
+				3D99FDC829BCEB2100560342 /* SignUpViewController.swift */,
+				3D99FDCA29BE3AF100560342 /* PasswordResetViewController.swift */,
+				3D99FDCC29BF5FA300560342 /* PasswordChangeViewController.swift */,
+				3D99FDCE29BF670E00560342 /* SuccessViewController.swift */,
 				3D99FDB829B8804D00560342 /* Main.storyboard */,
 				3D99FDBB29B8805100560342 /* Assets.xcassets */,
 				3D99FDBD29B8805100560342 /* LaunchScreen.storyboard */,
@@ -70,9 +82,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3D99FDAE29B8804D00560342 /* lesson033 */ = {
+		3D99FDAE29B8804D00560342 /* HomeTask032 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3D99FDC329B8805100560342 /* Build configuration list for PBXNativeTarget "lesson033" */;
+			buildConfigurationList = 3D99FDC329B8805100560342 /* Build configuration list for PBXNativeTarget "HomeTask032" */;
 			buildPhases = (
 				3D99FDAB29B8804D00560342 /* Sources */,
 				3D99FDAC29B8804D00560342 /* Frameworks */,
@@ -82,9 +94,9 @@
 			);
 			dependencies = (
 			);
-			name = lesson033;
+			name = HomeTask032;
 			productName = lesson033;
-			productReference = 3D99FDAF29B8804D00560342 /* lesson033.app */;
+			productReference = 3D99FDAF29B8804D00560342 /* HomeTask032.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +114,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 3D99FDAA29B8804D00560342 /* Build configuration list for PBXProject "lesson033" */;
+			buildConfigurationList = 3D99FDAA29B8804D00560342 /* Build configuration list for PBXProject "HomeTask032" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +127,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3D99FDAE29B8804D00560342 /* lesson033 */,
+				3D99FDAE29B8804D00560342 /* HomeTask032 */,
 			);
 		};
 /* End PBXProject section */
@@ -139,7 +151,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				3D99FDB729B8804D00560342 /* ViewController.swift in Sources */,
+				3D99FDCF29BF670E00560342 /* SuccessViewController.swift in Sources */,
+				3D99FDCB29BE3AF100560342 /* PasswordResetViewController.swift in Sources */,
 				3D99FDB329B8804D00560342 /* AppDelegate.swift in Sources */,
+				3D99FDCD29BF5FA300560342 /* PasswordChangeViewController.swift in Sources */,
+				3D99FDC929BCEB2100560342 /* SignUpViewController.swift in Sources */,
 				3D99FDB529B8804D00560342 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -337,7 +353,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3D99FDAA29B8804D00560342 /* Build configuration list for PBXProject "lesson033" */ = {
+		3D99FDAA29B8804D00560342 /* Build configuration list for PBXProject "HomeTask032" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3D99FDC129B8805100560342 /* Debug */,
@@ -346,7 +362,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3D99FDC329B8805100560342 /* Build configuration list for PBXNativeTarget "lesson033" */ = {
+		3D99FDC329B8805100560342 /* Build configuration list for PBXNativeTarget "HomeTask032" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3D99FDC429B8805100560342 /* Debug */,
